@@ -17,6 +17,7 @@ document.querySelector('.btn').addEventListener('click', () => {
   }
   if (data.code.length !== 6) {
     myAlert(false, '验证码长度要6位')
+
     return
   }
 
